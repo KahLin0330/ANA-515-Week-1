@@ -1,8 +1,10 @@
 ---
 title: "Diamond sizes SP '24"
-author: Kah Lin Wong
-date: 2024
-output: word_document
+author: "Kah Lin Wong"
+date: '2024'
+output:
+  pdf_document: default
+  word_document: default
 ---
 
 ``` {r, echo = FALSE}
@@ -11,7 +13,7 @@ output: word_document
 
 install.packages("ggplot2")
 install.packages("dplyr")
-
+install.packages("markdown")
 ```{r setup, include = FALSE}
 #The include = FALSE function hides both the code and output in my output document. See what happens when you replace include=FALSE with echo=FALSE. In your final product, make sure this code chunk isn't displayed. 
 
