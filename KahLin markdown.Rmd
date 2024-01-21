@@ -2,9 +2,7 @@
 title: "Diamond sizes SP '24"
 author: "Kah Lin Wong"
 date: '2024'
-output:
-  pdf_document: default
-  word_document: default
+output: word_document
 ---
 
 ``` {r, echo = FALSE}
